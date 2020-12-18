@@ -1,4 +1,4 @@
-# tiny-daemon
+# :man_dancing: tiny-daemon
 
 A very small image whose entrypoint does nothing but sleep.
 
@@ -11,6 +11,6 @@ For example, in Kubernetes, perhaps you want to test scheduling. Or perhaps you 
 ## Building
 
 ```console
-docker build -t <img> .
+$ docker build -t <img> .
 $ docker push <img>
 ```
